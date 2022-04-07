@@ -1,3 +1,60 @@
 body {
   font-family: sans-serif;
 }
+
+input {
+  border-radius: 8px;
+  border: none;
+  padding: 6px 16px;
+  outline: none;
+}
+
+button {
+  border-radius: 16px;
+  border: none;
+  padding: 4px 16px;
+  margin: 3px;
+}
+
+li {
+  margin: 4px;
+}
+
+button:hover {
+  background-color: pink;
+  color: white;
+  cursor: pointer;
+}
+
+.input-area {
+  background-color: rgb(188, 243, 243);
+  width: 400px;
+  height: 30px;
+  padding: 8px;
+  margin: 8px;
+  border-radius: 8px;
+}
+
+.imcomplete-area {
+  background-color: rgb(248, 242, 191);
+  width: 400px;
+  min-height: 200px;
+  padding: 8px;
+  margin: 8px;
+  border-radius: 8px;
+}
+
+.complete-area {
+  background-color: rgb(206, 247, 146);
+  width: 400px;
+  min-height: 200px;
+  padding: 8px;
+  margin: 8px;
+  border-radius: 8px;
+}
+
+.list-row {
+  display: flex;
+  align-items: center;
+  padding-bottom: 8px;
+}
