@@ -26,6 +26,10 @@ button:hover {
   cursor: pointer;
 }
 
+.error-text {
+  background-color: rgb(253, 176, 176);
+}
+
 .input-area {
   background-color: rgb(188, 243, 243);
   width: 400px;
