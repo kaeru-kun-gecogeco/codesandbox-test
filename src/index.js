@@ -58,6 +58,13 @@ const addToImcompleteList = (text) => {
     imcompleteButton.addEventListener("click", () => {
       // 未完了のTODo領域に追加する
       addToImcompleteList(text);
+
+      // 完了したTODo領域から削除する
+      // 削除対象の<li>タグを取得する
+      const deleteTarget = imcompleteButton.parentNode.parentNode;
+
+      // 未完了のTODO領域からdeleteTargetを削除する
+      document.getElementById("complete-list").removeChild(deleteTarget);
     });
 
     // <div>タグ生成
